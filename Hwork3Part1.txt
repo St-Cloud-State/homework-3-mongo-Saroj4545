@@ -1,0 +1,98 @@
+Script started on 2025-04-14 21:03:09+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="160" LINES="28"]
+[0;32m@Saroj4545 [0m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ mn[Kongosh
+bash: mongosh: command not found
+[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ sudo apt update && sudo apt install -y mongodb-mongosh
+[33m0% [Working][0m            Hit:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+[33m0% [Connecting to archive.ubuntu.com (185.125.190.81)] [Connected to repo.anaconda.com (104.16.32.241)] [Waiting for headers] [Connected to dl.yarnpkg.com (104[0m                                                                                                                                                               Hit:2 https://packages.microsoft.com/repos/microsoft-ubuntu-focal-prod focal InRelease
+[33m                                                                                                                                                               0% [Connecting to archive.ubuntu.com (185.125.190.81)] [Connected to repo.anaconda.com (104.16.32.241)] [Waiting for headers][0m                                                                                                                             Hit:3 https://dl.yarnpkg.com/debian stable InRelease
+[33m                                                                                                                             0% [Connecting to archive.ubuntu.com (185.125.190.81)] [Waiting for headers][0m                                                                            Hit:4 https://repo.anaconda.com/pkgs/misc/debrepo/conda stable InRelease
+[33m                                                                            0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Hit:5 http://archive.ubuntu.com/ubuntu focal InRelease
+[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers] [Connecting to packagecloud.io][0m                                                        Hit:6 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+[33m0% [Waiting for headers] [Connecting to packagecloud.io][0m[33m0% [Waiting for headers] [Connecting to packagecloud.io][0m                                                        Hit:7 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+[33m                                                        0% [Connecting to packagecloud.io][0m[33m0% [Connecting to packagecloud.io (52.8.31.218)][0m[33m                                                0% [Connected to packagecloud.io (52.8.31.218)][0m[33m                                               0% [Waiting for headers][0m[33m                        0% [Working][0m            Hit:8 https://packagecloud.io/github/git-lfs/ubuntu focal InRelease
+[33m0% [Working][0m[33m20% [Working][0m             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 3%Reading package lists... 3%Reading package lists... 35%Reading package lists... 35%Reading package lists... 36%Reading package lists... 36%Reading package lists... 49%Reading package lists... 49%Reading package lists... 63%Reading package lists... 63%Reading package lists... 64%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 80%Reading package lists... 80%Reading package lists... 94%Reading package lists... 94%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+46 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 3%Reading package lists... 3%Reading package lists... 35%Reading package lists... 35%Reading package lists... 36%Reading package lists... 36%Reading package lists... 49%Reading package lists... 49%Reading package lists... 63%Reading package lists... 63%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 71%Reading package lists... 80%Reading package lists... 80%Reading package lists... 94%Reading package lists... 94%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+[1;31mE: [0mUnable to locate package mongodb-mongosh[0m
+[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ sudo apt update && sudo apt install -y mongodb-mongoshmongosh[K
+bash: mongosh: command not found
+[0;32m@Saroj4545 [1;31m➜ [1;34m/workspaces/homework-3-mongo-Saroj4545 [0;36m([1;31mmain[0;36m) [0m$ mongosh[K[K
+MongoDB shell version v3.6.8
+connecting to: mongodb://127.0.0.1:27017
+Implicit session: session { "id" : UUID("254cc20a-743f-4443-a7de-5e4a4345102e") }
+MongoDB server version: 3.6.8
+Server has startup warnings: 
+2025-04-14T20:36:44.886+0000 I CONTROL  [initandlisten] 
+2025-04-14T20:36:44.886+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2025-04-14T20:36:44.886+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2025-04-14T20:36:44.886+0000 I CONTROL  [initandlisten] 
+2025-04-14T20:36:44.886+0000 I CONTROL  [initandlisten] 
+2025-04-14T20:36:44.886+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2025-04-14T20:36:44.886+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2025-04-14T20:36:44.886+0000 I CONTROL  [initandlisten] 
+> [3G[Jdb.applications.find({ application_id: "A1001" }).pretty()[61G[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { status: "accepted" }, $push: { loan_terms: { $each: ["APR: 3.5%", "Loan Term: 30 years"] } } });[7G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { "subphases.credit_check.completed": true }, $push: { "subphases.credit_check.messages": "Credit approved" } });[22G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { status: "processing", "subphases.credit_check": { completed: false,  messages: ["Started credit verification"] } } });[29G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $push: { notes: "Application received on April 5" } });[118G[3G[Jdb.applications.insertOne({  application_id: "A1001",  name: "John Doe",  zipcode: "56301",  address: "123 Main St",  status: "received",  notes: [],  subphases: {},  loan_terms: [],  rejection_reason: null});[52G[1A[3G[Juse applications[19G[3G[Jdb.createCollection('applications');[39G[3G[Jprintjson(db.loansApplication.findOne({ application_id: "A1001" }));[71G[3G[Jdb.createCollection('applications');[39G[3G[Jdb.createCollection('applications');[39G
+{
+	"ok" : 0,
+	"errmsg" : "a collection 'test.applications' already exists",
+	"code" : 48,
+	"codeName" : "NamespaceExists"
+}
+> [3G[Jdb.createCollection('applications');[39G[3G[Jdb.applications.find({ application_id: "A1001" }).pretty()[61G[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { status: "accepted" }, $push: { loan_terms: { $each: ["APR: 3.5%", "Loan Term: 30 years"] } } });[7G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { "subphases.credit_check.completed": true }, $push: { "subphases.credit_check.messages": "Credit approved" } });[22G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { status: "processing", "subphases.credit_check": { completed: false,  messages: ["Started credit verification"] } } });[29G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $push: { notes: "Application received on April 5" } });[118G[3G[Jdb.applications.insertOne({  application_id: "A1001",  name: "John Doe",  zipcode: "56301",  address: "123 Main St",  status: "received",  notes: [],  subphases: {},  loan_terms: [],  rejection_reason: null});[52G[1A[3G[Juse applications[19G[3G[Jdb.createCollection('applications');[39G[3G[Juse applications[19G[3G[Juse applications[19G
+switched to db applications
+> [3G[Juse applications[19G[3G[Jdb.createCollection('applications');[39G[3G[Jdb.applications.find({ application_id: "A1001" }).pretty()[61G[3G[Jdb.applications.find({ application_id: "A1001" }).pretty()[61G
+{
+	"_id" : ObjectId("67fd74b386c7ded77d454268"),
+	"application_id" : "A1001",
+	"name" : "John Doe",
+	"zipcode" : "56301",
+	"address" : "123 Main St",
+	"status" : "accepted",
+	"notes" : [
+		"Application received on April 5"
+	],
+	"subphases" : {
+		"credit_check" : {
+			"completed" : true,
+			"messages" : [
+				"Started credit verification",
+				"Credit approved"
+			]
+		}
+	},
+	"loan_terms" : [
+		"APR: 3.5%",
+		"Loan Term: 30 years"
+	],
+	"rejection_reason" : null
+}
+> [3G[Jdb.applications.find({ application_id: "A1001" }).pretty()[61G[3G[Juse applications[19G[3G[Jdb.createCollection('applications');[39G[3G[Jdb.applications.find({ application_id: "A1001" }).pretty()[61G[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { status: "accepted" }, $push: { loan_terms: { $each: ["APR: 3.5%", "Loan Term: 30 years"] } } });[7G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { "subphases.credit_check.completed": true }, $push: { "subphases.credit_check.messages": "Credit approved" } });[22G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { status: "processing", "subphases.credit_check": { completed: false,  messages: ["Started credit verification"] } } });[29G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $push: { notes: "Application received on April 5" } });[118G[3G[Jdb.applications.insertOne({  application_id: "A1001",  name: "John Doe",  zipcode: "56301",  address: "123 Main St",  status: "received",  notes: [],  subphases: {},  loan_terms: [],  rejection_reason: null});[52G[1A[3G[Juse applications[19G[3G[Jdb.createCollection('applications');[39G[3G[Jprintjson(db.loansApplication.findOne({ application_id: "A1001" }));[71G[3G[Jdb.createCollection('applications');[39G[3G[Juse applications[19G[3G[Jdb.applications.insertOne({  application_id: "A1001",  name: "John Doe",  zipcode: "56301",  address: "123 Main St",  status: "received",  notes: [],  subphases: {},  loan_terms: [],  rejection_reason: null});[52G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $push: { notes: "Application received on April 5" } });[118G[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { status: "processing", "subphases.credit_check": { completed: false,  messages: ["Started credit verification"] } } });[29G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { "subphases.credit_check.completed": true }, $push: { "subphases.credit_check.messages": "Credit approved" } });[22G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { status: "accepted" }, $push: { loan_terms: { $each: ["APR: 3.5%", "Loan Term: 30 years"] } } });[7G[1A[3G[Jdb.applications.find({ application_id: "A1001" }).pretty()[61G[3G[Jdb.createCollection('applications');[39G[3G[Juse applications[19G[3G[Jdb.applications.find({ application_id: "A1001" }).pretty()[61G[3G[J[3G[3G[Jdb.applications.find({ application_id: "A1001" }).pretty()[61G[3G[Jdb.applications.find({ application_id: "A1001" }).pretty()[61G
+{
+	"_id" : ObjectId("67fd74b386c7ded77d454268"),
+	"application_id" : "A1001",
+	"name" : "John Doe",
+	"zipcode" : "56301",
+	"address" : "123 Main St",
+	"status" : "accepted",
+	"notes" : [
+		"Application received on April 5"
+	],
+	"subphases" : {
+		"credit_check" : {
+			"completed" : true,
+			"messages" : [
+				"Started credit verification",
+				"Credit approved"
+			]
+		}
+	},
+	"loan_terms" : [
+		"APR: 3.5%",
+		"Loan Term: 30 years"
+	],
+	"rejection_reason" : null
+}
+> [3G[Jdb.applications.find({ application_id: "A1001" }).pretty()[61G[3G[Juse applications[19G[3G[Jdb.createCollection('applications');[39G[3G[Jdb.applications.find({ application_id: "A1001" }).pretty()[61G[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { status: "accepted" }, $push: { loan_terms: { $each: ["APR: 3.5%", "Loan Term: 30 years"] } } });[7G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { "subphases.credit_check.completed": true }, $push: { "subphases.credit_check.messages": "Credit approved" } });[22G[1A[3G[Jdb.applications.updateOne(  { application_id: "A1001" },  { $set: { status: "processing", "subphases.credit_check": { completed: false,  messages: ["Started credit verification"] }
